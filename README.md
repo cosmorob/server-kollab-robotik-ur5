@@ -8,5 +8,9 @@ Mensch-Roboter-Kollaboration für eine Getriebemontage mit einem Universal Robot
 
 Client App ↔ Websocket Port 3000 ↔ Server App ↔ TCP Server Port 30001 ↔ UR5
 
-Der Server ist eine Node.js-Express-Applikation, welche eine Verbindung zum Client auf Port 3000 
+Der Server ist eine minimalistische Node.js-Express-Applikation, welche eine Verbindung zum Client auf Port 3000 
 und eine Verbindung zum UR5 über TCP auf Port 30001 herstellt.
+
+Client: https://github.com/cosmorob/client-kollab-robotik-ur5
+
+![Hero](https://github.com/cosmorob/client-kollab-robotik-ur5/blob/main/img/hero-architecture.png?raw=true)
